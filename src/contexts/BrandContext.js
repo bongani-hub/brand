@@ -16,6 +16,7 @@ const BrandContextProvider  = (props) => {
         {id:uuidv4(), name: '', title: ''},
         {id:uuidv4(), name: '', title: ''},
         {id:uuidv4(), name: '', title: ''},
+        {id:uuidv4(), name: '', title: ''},
         {id:uuidv4(), name: '', title: ''}
 ])
 
@@ -33,8 +34,8 @@ const sortedBrands = brand.sort((a,b)=>(a.name < b.name ? -1 : 1));
 
 
 
-const addBrand = (thumbnail,name, title) => {
-    setBrand([...brand , {id:uuidv4(),thumbnail, name, title}])
+const addBrand = (thumbnail, name, title) => {
+    setBrand([...brand , {id:uuidv4(), thumbnail, name, title}])
 }
 
 const deleteBrand = (id) => {

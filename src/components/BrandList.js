@@ -15,7 +15,7 @@ const BrandList = () => {
     
     const handleShow = () => setShow(true);
     const handleClose = () => setShow(false);
-    //const handleShowAlert = () =>setShowAlert(true);
+    
 
     const [currentPage, setCurrentPage] = useState(1);
     const [brandsPerPage] = useState(2)

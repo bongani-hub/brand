@@ -34,7 +34,7 @@ const AddForm = () =>{
         <Form onSubmit={(handleSubmit)}>
             <Form.Group>
                 <Form.Control
-                div className="table.table tr th, table.table tr td"
+                
                
                 img src="apple.png" height="100px" width="100px"
                 

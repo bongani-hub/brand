@@ -31,9 +31,6 @@ const updatedBrand = {id, thumbnail, name, title, }
         <Form onSubmit={handleSubmit}>
             <Form.Group>
                 <Form.Control
-                 
-                
-                
                  type='img'
                  placeholder="Thumbnail"
                  name="image"
