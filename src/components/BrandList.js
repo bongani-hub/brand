@@ -61,6 +61,7 @@ const BrandList = () => {
     <table className="table table-striped table-hover">
         <thead>
             <tr>
+                <th>Thumbnail</th>
                 <th>Name</th>
                 <th>Title</th>
                 

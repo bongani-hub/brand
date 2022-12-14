@@ -20,9 +20,11 @@ const Brand = ({brand}) => {
 
     return (
         <>
+            <td>{brand.img}</td>
             <td>{brand.name}</td>
             <td>{brand.title}</td>
-            
+
+             
             <td>
                 <OverlayTrigger
                     overlay={
